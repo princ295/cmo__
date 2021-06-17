@@ -1,0 +1,14 @@
+{
+  "datajanchaupal": {
+    "Jan-Chaupal": "JANCHAUPAL",
+    "pending": "Pending",
+    "completed": "Completed",
+    "total": "Total"
+  },
+  "datacollectorjanchaupal": {
+    "Jan-Chaupal": "COLLECTOR JANCHAUPAL",
+    "pending": "Pending",
+    "completed": "Completed",
+    "total": "Total"
+  }
+}

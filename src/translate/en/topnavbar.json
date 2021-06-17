@@ -1,0 +1,30 @@
+{
+  "menuItemSecond" :[
+    {
+      "id": 1234,
+      "item": "Home",
+      "path": "/home"
+    },{
+      "id": 2345,
+      "item": "Chief Minister's Office",
+      "subItem": [
+        {"item" :"Chief Ministers Secretariat","path": "/cmo_office", "id": 3456}, 
+        {"item": "Chief Minister's Office Address", "path": "/office_address", "id": 4567}
+      ]
+    },
+    {
+      "id": 5678,
+      "item": "Chief Minister's Office Facebook",
+      "path": "https://www.facebook.com/ChhattisgarhCMO/"
+    },
+    {
+      "id": 6789,
+      "item": "Jan-Chaupal",
+      "path": "https://janchaupal.cg.nic.in/"
+    },{
+      "id": 7890,
+      "item": "News",
+      "path": "http://dprcg.gov.in/"
+    }
+  ]  
+}

@@ -1,0 +1,28 @@
+{
+  "menuItem_": [
+    {
+      "item": "मुख्य पृष्ठ",
+      "path": "/home"
+    },
+    {
+      "item": "मुख्यमंत्री कार्यालय",
+      "subItem": [
+        {"item" :"मुख्य मंत्री सचिवालय","path": "/cmo_office"}, 
+        {"item": "मुख्यमंत्री कार्यालय का पता", "path": "/office_address"}
+      ]
+    },
+    {
+      "item": "मुख्यमंत्री कार्यालय फेसबुक",
+      "path": "https://www.facebook.com/ChhattisgarhCMO/"
+    },{
+      "item": "जन-चौपाल",
+      "path": "https://janchaupal.cg.nic.in/"
+    },{
+      "item": "समाचार",
+      "path": "http://dprcg.gov.in/"
+    }
+  ],
+  "princedewangan": "समाचार"
+}
+  
+  

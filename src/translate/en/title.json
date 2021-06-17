@@ -1,0 +1,387 @@
+{
+  "cgnicin": {
+    "coloumn": [
+      {
+        "label": "Officer Rank",
+        "field": "userid",
+        "sort": "asc"
+      },
+      {
+        "label": "Main Department",
+        "field": "name",
+        "sort": "asc"
+      },
+      {
+        "label": "Name of District",
+        "field": "dist_name",
+        "sort": "asc"
+      },
+      {
+        "label": "Department",
+        "field": "address",
+        "sort": "asc"
+      },
+      {
+        "label": "Action statement",
+        "field": "subject",
+        "sort": "asc"
+      },
+      {
+        "label": "Action date",
+        "field": "dateOfJandarsan",
+        "sort": "asc"
+      }
+    ]
+  },
+
+  "secretariat": {
+    "coloumn": [
+      {
+        "label": "S.No",
+        "field": "id",
+        "sort": "asc"
+      },
+      {
+        "label": "Name",
+        "field": "name",
+        "sort": "asc"
+      },
+      {
+        "label": "Designation",
+        "field": "designation",
+        "sort": "asc"
+      },
+      {
+        "label": "The Officetel/fax",
+        "field": "officerTel",
+        "sort": "asc"
+      },
+      {
+        "label": "Office address",
+        "field": "officeAddress",
+        "sort": "asc"
+      },
+      {
+        "label": "E-mail",
+        "field": "emailID",
+        "sort": "asc"
+      }
+    ]
+  },
+  "minsteral": {
+    "title": "Review of Applications at the Ministerial Level",
+    "subtitle": "District - Raipur",
+    "coloumn": [
+        {
+            "label": "S.No",
+            "field": "sno",
+            "sort": "asc"
+          },
+          {
+            "label": "Main department",
+            "field": "dept_name",
+            "sort": "asc"
+          },
+          {
+            "label": "Office name",
+            "field": "officeName",
+            "sort": "asc"
+          },
+          {
+            "label": "Officer Name",
+            "field": "employee_name",
+            "sort": "asc"
+          },
+          {
+            "label": "Pending letter",
+            "field": "pending",
+            "sort": "asc"
+          },
+          {
+            "label": "Completed letter",
+            "field": "comp",
+            "sort": "asc"
+          },
+          {
+            "label": "Total Letter",
+            "field": "total",
+            "sort": "asc"
+          }
+    
+    ]
+  },
+  "department": {
+    "title": "Brief status of applications at the Head of Department level",
+    "columns": [
+        {
+          "label": "S.no",
+          "field": "sno",
+          "sort": "asc"
+        },
+        {
+          "label": "Name of district",
+          "field": "district_Name",
+          "sort": "asc"
+        },
+        { 
+          "label": "Pending letter",
+          "field": "curr_Pending_Letter",
+          "sort": "asc"
+        },
+        {
+          "label": "Completed letter",
+          "field": "curr_Completed_Letter",
+          "sort": "asc"
+        },
+        {
+          "label": "Total letter",
+          "field": "curr_Total_Letter",
+          "sort": "asc"
+        }
+      ]
+  },
+  "district": {
+    "title": "District-wise Brief Status of the Applications Presented",
+    "coloumn": [
+        {
+          "label": "S.no",
+          "field": "sno",
+          "sort": "asc"
+        },
+        {
+          "label": "Name of district",
+          "field": "district_Name",
+          "sort": "asc"
+        },
+        { 
+          "label": "Pending letter",
+          "field": "curr_Pending_Letter",
+          "sort": "asc"
+        },
+        {
+          "label": "Completed letter",
+          "field": "curr_Completed_Letter",
+          "sort": "asc"
+        },
+        {
+          "label": "Total letter",
+          "field": "curr_Total_Letter",
+          "sort": "asc"
+        }
+      ]
+  },
+  "maindepartment": {
+    "title": "List of Applications of the Category Presented Before the Main Department",
+    "coloumn": [
+        {
+          "label": "S.no",
+          "field": "sno",
+          "sort": "asc"
+        },
+        {
+          "label": "Main Department code",
+          "field": "dept_id",
+          "sort": "asc"
+        },
+        {
+          "label": "Name of the Main Department",
+          "field": "dept_name",
+          "sort": "asc"
+        },
+        {
+          "label": "Face to face",
+          "field": "samakshabhent",
+          "sort": "asc"
+        }
+      ]
+  },
+  "loksabha": {
+    "title": "See the letters of the Lok Sabha MP",
+    "columns": [
+        {
+          "label": "S.no",
+          "field": "sno",
+          "sort": "asc"
+        },
+        {
+          "label": "MLA Name",
+          "field": "sansad_name_h",
+          "sort": "asc"
+        },
+        {
+          "label": "Field Name",
+          "field": "vidhansabha_name",
+          "sort": "asc"
+        },
+        {
+          "label": "Total Letter",
+          "field": "total",
+          "sort": "asc"
+        },
+        {
+          "label": "Pandding Letter",
+          "field": "pending",
+          "sort": "asc"
+        },
+        {
+          "label": "Completed letter",
+          "field": "completed",
+          "sort": "asc"
+        }
+      ]
+  },
+  "rajyasabha": {
+    "title": "See the letters of Rajya Sabha MPs",
+    "columns": [
+        {
+          "label": "S.no",
+          "field": "sno",
+          "sort": "asc"
+        },
+        {
+          "label": "Name of Rajya Sabha MP",
+          "field": "sansad_name_h",
+          "sort": "asc"
+        },
+        {
+          "label": "Total Letter",
+          "field": "total",
+          "sort": "asc"
+        },
+        {
+          "label": "Pandding Letter",
+          "field": "pending",
+          "sort": "asc"
+        },
+        {
+          "label": "Rejected letter",
+          "field": "relateddepartment",
+          "sort": "asc"
+        }
+      ]
+  },
+  "mla": {
+    "title": "See the letters of MLAs",
+    "columns": [
+        {
+          "label": "S.no",
+          "field": "sno",
+          "sort": "asc"
+        },
+        {
+          "label": "MLA Name",
+          "field": "sansad_name_h",
+          "sort": "asc"
+        },
+        {
+          "label": "Field Name",
+          "field": "vidhansabha_name",
+          "sort": "asc"
+        },
+        {
+          "label": "Total Letter",
+          "field": "total",
+          "sort": "asc"
+        },
+        {
+          "label": "Pandding Letter",
+          "field": "pending",
+          "sort": "asc"
+        },
+        {
+          "label": "Completed letter",
+          "field": "completed",
+          "sort": "asc"
+        }
+      ]
+  },
+  "samakshbhet": {
+    "title": "List of applications of category presented before district wise",
+    "columns": [
+        {
+          "label": "S.no",
+          "field": "sno",
+          "sort": "asc"
+        },
+        {
+          "label": "Name of district",
+          "field": "district_Name",
+          "sort": "asc"
+        },
+        {
+          "label": "Name of the main department",
+          "field": "basename",
+          "sort": "asc"
+        },
+        { 
+          "label": "Pending letter",
+          "field": "totalpending",
+          "sort": "asc"
+        },
+        {
+          "label": "Completed letter",
+          "field": "totalCompleted",
+          "sort": "asc"
+        },
+        {
+          "label": "Total letter",
+          "field": "totalletter",
+          "sort": "asc"
+        }
+      ]
+  
+  },
+  "samakshbhetdetail": {
+    "title": "List of applications of the category presented before the office-wise",
+    "columns": [
+        {
+          "label": "S.no",
+          "field": "sno",
+          "sort": "asc"
+        },
+        {
+          "label": "Office name",
+          "field": "officeName",
+          "sort": "asc"
+        },
+        {
+          "label": "Office code",
+          "field": "newOfficeCode",
+          "sort": "asc"
+        },
+        { 
+          "label": "Pending letter",
+          "field": "totalpending",
+          "sort": "asc"
+        },
+        { 
+          "label": "Completed letter",
+          "field": "totalcompleted",
+          "sort": "asc"
+        },
+        {
+          "label": "Total letter",
+          "field": "totalcompleted",
+          "sort": "asc"
+        }
+      ]
+  },
+  "cmoffice": {
+    "title": "Chief Minister Office",
+    "karyalay": "CM HOUSE",
+    "email": "E- MAIL ID",
+    "phone": "PHONE",
+    "fax": "FAX NO"
+  },
+  "btn": "Click here for filter(Search)",
+  "search": "Search",
+  "formdate": "Form Date",
+  "todate": "To Date",
+  "category": "Category",
+  "application": "Type of Application",
+  "modaltitle": "Status of letter of appointment before",
+  "modalbtn": " Find Out",
+  "applicationno": "Application Number -",
+  "junpartinidhi":"Status of public representatives' letter",
+  "patra": "Letter Details"
+}

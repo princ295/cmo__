@@ -1,0 +1,36 @@
+{
+  "navSubItmeEn" :[
+    [
+      { "item": "Chief Ministers Secretariat", "path": "/cmo_office"},
+      { "item": "Chief Minister's Office Address", "path": "/office_address"}
+    ],
+    [
+      {"item": "At the Ministerial Level", "path": "/ministerial"},
+      {"item": "At the Department Level", "path": "/department"},
+      {"item": "District Wise Application", "path": "/district_application"},
+      {"item": "Main Department Wise Application", "path": "/maindepartment_application"}
+    ],
+    [
+      {"item": "Lok Sabha MP's Letter", "path": "/lokshabha_letter"},
+      {"item": "Rajya Sabha MP's Letter", "path": "/rajyasabha_etter"}, 
+      {"item": "MLA's Letter", "path": "/mla_letter"}
+    ]
+  ],
+  "navSubItmeHi" :[
+    [
+      { "item": "मुख्य मंत्री सचिवालय", "path": "/cmo_office"},
+      { "item": "मुख्यमंत्री कार्यालय का पता", "path": "/office_address"}
+    ],
+    [
+      {"item": "मंत्री स्तर पर", "path": "/ministerial"},
+      {"item": "विभाग स्तर पर", "path": "/department"},
+      {"item": "जिलेवार आवेदन", "path": "/district_application"},
+      {"item": "मुख्य विभाग वार आवेदन", "path": "/maindepartment_application"}
+    ],
+    [
+      {"item": "लोकसभा सांसद का पत्र", "path": "/lokshabha_letter"},
+      {"item": "राज्यसभा सांसद का पत्र", "path": "/rajyasabha_etter"}, 
+      {"item": "विधायक का पत्र", "path": "/mla_letter"}
+    ]
+  ]
+}

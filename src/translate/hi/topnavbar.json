@@ -1,0 +1,30 @@
+{
+  "menuItemSecond" :[
+    {
+      "id": 1111,
+      "item": "मुख्य पृष्ठ",
+      "path": "/home"
+    },{
+      "item": "मुख्यमंत्री कार्यालय",
+      "id": 2222,
+      "subItem": [
+        {"item" :"मुख्यमंत्री सचिवालय","path": "/cmo_office",  "id": 3333}, 
+        {"item": "मुख्यमंत्री कार्यालय का पता", "path": "/office_address",  "id": 4444}
+      ]
+    },
+    {
+      "id": 5555,
+      "item": "मुख्यमंत्री कार्यालय फेसबुक",
+      "path": "https://www.facebook.com/ChhattisgarhCMO/"
+    },
+    {
+      "id": 6666,
+      "item": "जन-चौपाल",
+      "path": "https://janchaupal.cg.nic.in/"
+    },{
+      "id": 7777,
+      "item": "समाचार",
+      "path": "http://dprcg.gov.in/"
+    }
+  ]
+}

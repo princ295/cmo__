@@ -1,0 +1,82 @@
+{
+ "tabalData" : {
+   "columns": [
+      {
+        "label": "S.No.",
+        "field": "sno",
+        "sort": "asc",
+        "width": 150
+      },
+      {
+        "label": " Work ID",
+        "field": "workid",
+        "sort": "asc",
+        "width": 200
+      },
+      {
+        "label": " Work Name",
+        "field": "workname",
+        "sort": "asc",
+        "width": 270
+      },
+         {
+        "label": "Sector",
+        "field": "section",
+        "sort": "asc",
+        "width": 100
+      },
+         {
+        "label": "Sub Sector",
+        "field": "subsection",
+        "sort": "asc",
+        "width": 100
+      },
+         {
+        "label": "Related Department",
+        "field": "relateddepartment",
+        "sort": "asc",
+        "width": 100
+      },
+         {
+        "label": "Proposed Estimate(In Rs.)",
+        "field": "proposedestimate(In Rs.)",
+        "sort": "asc",
+        "width": 100
+      },
+         {
+        "label": "Source of Proposal",
+        "field": "sourceofproposal",
+        "sort": "asc",
+        "width": 100
+      },
+         {
+        "label": "Financial Year",
+        "field": "financialyear",
+        "sort": "asc",
+        "width": 100
+      },
+         {
+        "label": "Executing Department",
+        "field": "excutingdeparment",
+        "sort": "asc",
+        "width": 100
+      },
+         {
+        "label": "Agency Name",
+        "field": "agencyname",
+        "sort": "asc",
+        "width": 100
+      },
+         {
+        "label": "Edit",
+        "field": "edit",
+        "sort": "asc",
+        "accessor": "name",
+        "width": 100
+      }
+    ],
+    "rows": []
+  }
+}
+      
+   

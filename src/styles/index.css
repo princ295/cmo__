@@ -1,0 +1,397 @@
+/* .light {
+  --theme-color: #145194;
+  --theme-background: #f9f9f9;
+  --theme-text: #145194;
+}
+
+.dark {
+  --theme-color: #A6A8A8;
+  --theme-background: #27282C;
+  --theme-text: #A6A8A8;
+} */
+
+/* #button-download-as-xls {
+  position: relative;
+}
+#button-download-as-xls::before {
+  position: absolute;
+  content: '\';
+  display: inline-block;
+  font-size: 30px;
+} */
+
+
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  /* background-image: url(../assets/whitediamond.png); */
+}
+
+.dark {
+  position: relative;
+}
+
+.bottom__up--scroll {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+.bottom__up--scroll > button {
+  float: right;
+}
+
+.lazy__loader {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page_not-found {
+  width: 100%;
+  height: auto;
+}
+
+
+.container{
+  max-width: 1385px !important;
+  margin: auto;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  background-color: #fbfbfb;
+  border-bottom: 1px solid #ded9d9;
+}
+.topbar div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 22px 0 35px;
+}
+
+.topbar__list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topbar__list > label {
+  margin: auto;
+}
+
+.topbar__list-item {
+  /* border: 1px solid #090909; */
+  font-weight: bold;
+  padding: 3px;
+}
+
+.topbar__mq:first-child::after {
+  content: "";
+  border-right: 1px solid #000;
+  padding-right: 8px;
+}
+
+.header {
+  padding: 12px 8px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo-img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+
+.topnav {
+  width: 99.97vw;
+  background-color: #145195 !important;
+  /* background-color: var(--theme-page-background) !important; */
+
+  position: sticky;
+  top: 0;
+  z-index: 16;
+}
+
+.navbar {
+  max-width: 1400px !important;
+  margin: auto;
+  display: flex !important;
+  justify-content: flex-end !important;
+  
+  /* background-color: #145195 !important; */
+}
+
+
+
+.navbar-light .navbar-toggler-icon {
+  margin-right: 20px !important;
+}
+
+.nav-link{
+  color: #fff !important;
+  font-weight: 600;
+  padding: 8px 16px !important;
+}
+/* A5CBF0 */
+.nav-link:hover {
+  color: #A5CBF0 !important;
+}
+
+.dropdown-item:hover {
+  color: #2e2c2c !important;
+  font-weight: 600;
+}
+
+.bg-dark {
+  background-color: #145195 !important;
+  color: #fff;
+}
+
+.header__button a {
+  display: flex;
+}
+
+.header__button-donate{
+  border: 1px solid green !important;
+  width: 250px;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
+  padding: 8px 0 !important;
+}
+
+.header__button-text {
+  font-size: 15px;
+}
+
+.header__button-donate > span > svg {
+  height: 42px !important;
+  font-size: 41px !important;
+}
+
+.header__button-donate > span > svg > path{
+  height: 42px !important;
+  font-size: 32px !important;
+}
+
+
+/* .bg__image {
+  background: url('');
+} */
+
+
+/* footer style */
+.footer{
+  background-color: #145194;
+  color: #fff;
+}
+.footer__title{
+  border-bottom: 1px solid #f9f9f9;
+  padding-bottom: 13px;
+} 
+  
+.footer__subtext {
+  font-size: 12px;
+}
+
+.footer__subtext a {
+  color: #8cbef1;
+  font-weight: 600;
+}
+.footer__subtext a:hover{
+  color: #8cbef1;
+  font-weight: 600;
+  text-decoration: n;
+}
+
+
+/* Home page card */
+
+.item {
+  padding: 50px 50px;
+  border-radius: 8px;
+  background-color: #f3f3f3 im !important;
+  margin-bottom: 25px;
+}
+
+/* .item__body {
+  padding: 20px;
+} */
+
+.item__body .item__content{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.item__title {
+  border-bottom: 1px solid #1d1b1b;
+}
+
+.item__title > h2 {
+  text-align: center;
+  font-size: 28px !important;
+}
+
+.item__pm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* drop down  */
+.dropdown-menu {
+  /* display: block; */
+  margin: 10px 0 !important;
+}
+
+.dropdown-toggle::after{
+  display: none !important;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.show {
+  animation-duration: 0.7s;
+  animation-delay: 4s;
+}
+
+
+/*================  fontsize ============*/
+.styles_dot_button__Mpo-M{
+  background: none !important;
+  color: #000 !important;
+  border: none !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  width: 35px !important;
+  height: 18px !important;
+  font-size: 15px !important;
+}
+
+
+/* mdbreact table color */
+thead tr {
+  background: #145194 !important;
+  color: #fff;
+}
+.page-item.active .page-link{
+  background: #145194 !important;
+}
+
+/* CM House Card Body */
+.card__title {
+  color: #145194;
+}
+.card__body{
+  border-top: 4px solid #145194 !important;
+  max-width: 650px;
+  padding: 15px;
+  border: 1px solid #f3f3f3;
+  margin: auto;
+}
+
+.card__body-title{
+  font-size: 25px;
+  line-height: 46px;
+  font-weight: 500;
+  color: #145194;
+  font-family: unset;
+  text-transform: uppercase;
+}
+
+.dropdown-menu {
+  border-radius: 4px !important;
+  border-top: 3px solid #A5CBF0 !important;
+  box-shadow: 0px 13px 42px 11px rgb(0 0 0 / 5%);
+}
+
+/* Global Css */
+
+small {
+  font-weight: 600 !important;
+}
+
+
+
+/* Form button */
+
+.btn_button {
+  padding: 11px 26px;
+  outline: none;
+  border: none;
+  background: #145194;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Dark mode button overwite */
+.darkModeToggle {
+  height: 1.5rem !important;
+}
+
+
+/* overwrite css excel component */
+
+/* Scroll bar */
+
+/* 
+::-webkit-scrollbar {
+  width: 5px;
+  height: 7px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #525965;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+} */
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 7px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #525965;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}

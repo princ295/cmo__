@@ -1,0 +1,388 @@
+{
+  "cgnicin": {
+    "coloumn": [
+      {
+        "label": "Officer Rank",
+        "field": "userid",
+        "sort": "asc"
+      },
+      {
+        "label": "Main Department",
+        "field": "name",
+        "sort": "asc"
+      },
+      {
+        "label": "Name of District",
+        "field": "dist_name",
+        "sort": "asc"
+      },
+      {
+        "label": "Department",
+        "field": "address",
+        "sort": "asc"
+      },
+      {
+        "label": "Action statement",
+        "field": "subject",
+        "sort": "asc"
+      },
+      {
+        "label": "Action date",
+        "field": "dateOfJandarsan",
+        "sort": "asc"
+      }
+    ]
+  },
+  "secretariat": {
+    "coloumn": [
+      {
+        "label": "स॰ क्र॰",
+        "field": "id",
+        "sort": "asc"
+      },
+      {
+        "label": "नाम",
+        "field": "name",
+        "sort": "asc"
+      },
+      {
+        "label": "पदनाम",
+        "field": "designation",
+        "sort": "asc"
+      },
+      {
+        "label": "कार्यालयदूरभाष/फैक्स",
+        "field": "officerTel",
+        "sort": "asc"
+      },
+      {
+        "label": "कार्यालय का पता",
+        "field": "officeAddress",
+        "sort": "asc"
+      },
+      {
+        "label": "E-mail",
+        "field": "emailID",
+        "sort": "asc"
+      }
+    ]
+  },
+
+  "minsteral" : {
+     "title": "मंत्रालयीन स्तर पर आवेदनों की समीक्षा",
+     "subtitle": "जिला - रायपुर",
+     "coloumn": [
+        {
+            "label": "स॰ क्र॰",
+            "field": "sno",
+            "sort": "asc"
+          },
+          {
+            "label": "मुख्य विभाग",
+            "field": "dept_name",
+            "sort": "asc"
+          },
+          {
+            "label": "कार्यालय का नाम",
+            "field": "officeName",
+            "sort": "asc"
+          },
+          {
+            "label": "ऑफिसर का नाम",
+            "field": "employee_name",
+            "sort": "asc"
+          },
+          {
+            "label": "लंबित पत्र (संधारित्र)",
+            "field": "pending",
+            "sort": "asc"
+          },
+          {
+            "label": "निराकृत पत्र (संधारित्र)",
+            "field": "comp",
+            "sort": "asc"
+          },
+          {
+            "label": "कुल पत्र (संधारित्र)",
+            "field": "total",
+    
+            "sort": "asc"
+          }
+    
+     ]
+   },
+   "department": {
+     "title": "विभागाध्यक्ष स्तर पर आवेदनों की संक्षिप्त स्थिति",
+     "columns":  [
+      {
+        "label": "स॰ क्र॰",
+        "field": "sno",
+        "sort": "asc"
+      },
+      {
+        "label": "जिले का नाम",
+        "field": "district_Name",
+        "sort": "asc"
+      },
+      { 
+        "label": "लंबित पत्र (संधारित्र)",
+        "field": "curr_Pending_Letter",
+        "sort": "asc"
+      },
+      {
+        "label": "निराकृत पत्र (संधारित्र)",
+        "field": "curr_Completed_Letter",
+        "sort": "asc"
+      },
+      {
+        "label": "कुल पत्र (संधारित्र)",
+        "field": "curr_Total_Letter",
+        "sort": "asc"
+      }
+    ]
+   },
+  "district": {
+    "title": "जिलेवार समक्ष भेंट श्रेणी के आवेदनों की संक्षिप्त स्थिति",
+    "coloumn": [
+      {
+        "label": "स॰ क्र॰",
+        "field": "sno",
+        "sort": "asc"
+      },
+      {
+        "label": "जिले का नाम",
+        "field": "district_Name",
+        "sort": "asc"
+      },
+      { 
+        "label": "लंबित पत्र (संधारित्र)",
+        "field": "curr_Pending_Letter",
+        "sort": "asc"
+      },
+      {
+        "label": "निराकृत पत्र (संधारित्र)",
+        "field": "curr_Completed_Letter",
+        "sort": "asc"
+      },
+      {
+        "label": "कुल पत्र (संधारित्र)",
+        "field": "curr_Total_Letter",
+        "sort": "asc"
+      }
+    ]
+  },
+  "maindepartment": {
+    "title": "मुख्य विभाग में दर्ज समक्ष भेंट श्रेणी के आवेदनों की सूची",
+    "coloumn": [
+        {
+          "label": "स॰ क्र॰",
+          "field": "sno",
+          "sort": "asc"
+        },
+        {
+          "label": "मुख्य विभाग का कोड",
+          "field": "dept_id",
+          "sort": "asc"
+        },
+        {
+          "label": "मुख्य विभाग का नाम",
+          "field": "dept_name",
+          "sort": "asc"
+        },
+        {
+          "label": "समक्ष भेंट",
+          "field": "samakshabhent",
+          "sort": "asc"
+        }
+      ]
+  },
+  "loksabha": {
+    "title": "लोकसभा सांसदो के पत्र देखें",
+    "columns": [
+        {
+          "label": "स.क्र.",
+          "field": "sno",
+          "sort": "asc"
+        },
+        {
+          "label": "लोकसभा सांसद का नाम",
+          "field": "sansad_name_h",
+          "sort": "asc"
+        },
+        {
+          "label": "क्षेत्र का नाम",
+          "field": "vidhansabha_name",
+          "sort": "asc"
+        },
+        {
+          "label": "कुल पत्र",
+          "field": "total",
+          "sort": "asc"
+        },
+        {
+          "label": "लंबित पत्र",
+          "field": "pending",
+          "sort": "asc"
+        },
+        {
+          "label": "निराकृत पत्र",
+          "field": "completed",
+          "sort": "asc"
+        }
+      ]
+    },
+    "rajyasabha": {
+      "title": "राज्यसभा सांसदो के पत्र देखें",
+      "columns": [
+          {
+            "label": "स.क्र.",
+            "field": "sno",
+            "sort": "asc"
+          },
+          {
+            "label": "राज्यसभा सांसद का नाम",
+            "field": "sansad_name_h",
+            "sort": "asc"
+          },
+          {
+            "label": "कुल पत्र",
+            "field": "total",
+            "sort": "asc"
+          },
+          {
+            "label": "लंबित पत्र",
+            "field": "pending",
+            "sort": "asc"
+          },
+          {
+            "label": "निराकृत पत्र",
+            "field": "relateddepartment",
+            "sort": "asc"
+          }
+        ]
+    },
+    "mla": {
+      "title": "विधायकों के पत्र देखें",
+      "columns": [
+          {
+            "label": "स.क्र.",
+            "field": "sno",
+            "sort": "asc"
+          },
+          {
+            "label": "विधायक का नाम",
+            "field": "sansad_name_h",
+            "sort": "asc"
+          },
+          {
+            "label": "क्षेत्र का नाम",
+            "field": "vidhansabha_name",
+            "sort": "asc"
+          },
+          {
+            "label": "कुल पत्र",
+            "field": "total",
+            "sort": "asc"
+          },
+          {
+            "label": "लंबित पत्र",
+            "field": "pending",
+            "sort": "asc"
+          },
+          {
+            "label": "निराकृत पत्र",
+            "field": "completed",
+            "sort": "asc"
+          }
+        ]
+    },
+    "samakshbhet": {
+      "title": "जिलेवार दर्ज समक्ष भेंट श्रेणी के आवेदनों की सूची",
+      "columns": [
+          {
+            "label": "स.क्र.",
+            "field": "sno",
+            "sort": "asc"
+          },
+          {
+            "label": "जिले का नाम",
+            "field": "district_Name",
+            "sort": "asc"
+          },
+          {
+            "label": "मुख्य विभाग का नाम",
+            "field": "basename",
+            "sort": "asc"
+          },
+          { 
+            "label": "लंबित पत्र",
+            "field": "totalpending",
+            "sort": "asc"
+          },
+          {
+            "label": "निराकृत पत्र",
+            "field": "totalCompleted",
+            "sort": "asc"
+          },
+          {
+            "label": "कुल पत्र",
+            "field": "totalletter",
+            "sort": "asc"
+          }
+        ]
+    
+    },
+    "samakshbhetdetail": {
+      "title": "ऑफिसवार दर्ज समक्ष भेंट श्रेणी के आवेदनों की सूची",
+      "columns": [
+          {
+            "label": "स.क्र.",
+            "field": "sno",
+            "sort": "asc"
+          },
+          {
+            "label": "ऑफिस का नाम ",
+            "field": "officeName",
+            "sort": "asc"
+          },
+          {
+            "label": "ऑफिस का कोड",
+            "field": "newOfficeCode",
+            "sort": "asc"
+          },
+          { 
+            "label": "लंबित पत्र",
+            "field": "totalpending",
+            "sort": "asc"
+          },
+          { 
+            "label": "निराकृत पत्र",
+            "field": "totalcompleted",
+            "sort": "asc"
+          },
+          {
+            "label": "कुल पत्र",
+            "field": "totalcompleted",
+            "sort": "asc"
+          }
+        ]
+    },
+  "cmoffice": {
+    "title": "मुख्यमंत्री कार्यालय",
+    "email": "ईमेल",
+    "karyalay": "मुख्यमंत्री कार्यालय",
+    "phone": "फ़ोन",
+    "fax": "फ़ैक्स "
+  },
+  "btn": "फ़िल्टर के लिए यहां क्लिक करें (खोजें)",
+  "search": "खोजें",
+  "formdate": "तिथि ( से )",
+  "todate": "तिथि (तक)",
+  "category": "श्रेणी",
+  "application": "आवेदनो का प्रकार -",
+  "modaltitle": "समक्ष भेंट के पत्र की स्थिति",
+  "modalbtn": "पता लगाएं",
+  "applicationno": "आवेदन क्रमांक -",
+  "junpartinidhi":"जनप्रतिनिधियों के पत्र की स्थिति ",
+  "patra": "पत्र का विवरण"
+}
